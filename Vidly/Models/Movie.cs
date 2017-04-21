@@ -30,5 +30,7 @@ namespace Vidly.Models
         public byte NumberInStock { get; set; }
 
         public DateTime Dateadded { get; set; }
+
+        public byte NumberAvailable { get; set; }
     }
 }
